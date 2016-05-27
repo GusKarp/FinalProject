@@ -1,0 +1,216 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2015, 9:02:19 AM
+    Author     : Student
+*/
+
+/*****************************************************
+General
+*****************************************************/
+
+body {
+    font-family: 'Andada', serif;
+}
+
+#wrapper {
+    max-width: 940px;
+    /* Margin 0 is for all sides */
+    margin: 0 auto;
+    /* Values first one is top and bottom. Second one is left and right. */
+    border-radius: 10%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+h3 {
+    margin: 0 0 1em  0;
+}
+
+/******************************************************
+Header
+******************************************************/
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 2em;
+}
+
+h2 {
+    text-decoration: none;
+    /*1st value is for the top.  2nd value is for left and right. 3rd value is for bottom.*/
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/*****************************************************
+Navigation
+*****************************************************/
+
+nav {
+   text-align: center;
+   padding: 10px 0;
+   margin: 20px 0 0;
+   text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+nav p{
+    color: black;
+}
+/********************************************
+Footer
+********************************************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color: silver;
+    clear: both;
+}
+
+.social-media-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/*******************************************
+Page Portfolio
+*******************************************/
+
+#gallery {   
+    border-radius: 10%;
+}
+
+#gallery li{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #cc0000;
+    color: #fff;
+}
+
+#gallery li a p {
+    margin:0;
+    padding: 5%;
+    font-size: .90em;
+    color: white;
+}
+
+/**********************************************
+Contact Page
+**********************************************/
+.contact-info a{
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/mail.png')
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/instagram.png')
+}
+
+
+/**************************************************
+Colors
+***************************************************/
+
+body {
+    color: black;
+}
+
+a {
+    color: #006666;
+}
+
+header {
+    background: #006699;
+}
+
+h1, h2{
+    color: orangered;
+}
+
+nav{
+    background: #cc0000;
+}
+
+/*********************************
+Text-decoration
+*********************************/
+nav a,nav a:visited {
+    color: #fff;
+}
+
+nav a.selected {
+    color: #666666;
+}
+
+nav a:hover {
+    color: #006666;
+}
+
+.profile-photo {
+    
+}
+
+/*******************************************
+IMAGE
+*******************************************/
+img {
+    border-radius: 5%;
+}
+
+section p {
+    font-size: large;
+}
+
+
+
+
